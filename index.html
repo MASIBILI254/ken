@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>welcome to our page</h1>
+    <div class="container">
+    <label for="name" >Firstname:</label>
+    <input type="text" name="name" placeholder="your first name"><br>
+    <label for="name">Lastname:</label>
+    <input type="text" name="name" placeholder="your last name"><br>
+    <label for="name">age:</label>
+    <input type="text" name="age" placeholder="age" value="age"><br>
+    <input type="radio" name="gender" value="male" id="male" class="gender">
+    <label for="gender">Male</label><br>
+    <input type="radio" name="gender" value="female" class="gender" id="Female">
+    <label for="gender">Female</label><br>
+    <button class="btn" onclick="alert(displayMsg())">submit</button>
+</div>
+    <script>
+        function displayMsg(){
+            alert("succefully logged in");
+        }
+    </script>
+</body>
+</html>
